@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="heading">
+        <h1 id="page-title">freeCodeCamp Survey Form</h1>
+        <p id="description">
+          Thank you for taking the time to help us improve the platform
+        </p>
+      </div>
+      <div class="main-form">
+        <form action="">
+          <div class="form-group">
+            <div class="label">
+              <label for="name" class="name-label">Name</label>
+            </div>
+            <div class="input">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="label">
+              <label for="email" class="email-label">Email</label>
+            </div>
+            <div class="input">
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Enter your Email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="label">
+              <label for="age" class="age-label">Age (optional)</label>
+            </div>
+            <div class="input">
+              <input
+                type="text"
+                id="age"
+                name="age"
+                placeholder="Age"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="label">
+              <label for="dropdown" class="dropdown-label">Which option best describes your current role?</label>
+            </div>
+            <div class="input">
+              <select
+                id="dropdown"
+                name="dropdown"
+                required
+              >
+              <option disabled >Select Current role</option>
+              <option value="Student">Student</option>
+              <option value="job">Full Time Job</option>
+              <option value="learner">Full Time Learner</option>
+              <option value="no">Prefer not to say</option>
+              <option value="other">Other</option>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="label">
+              <label for="role" class="role-label">Would you recommend freeCodeCamp to a friend?</label>
+            </div>
+            <div class="input">
+                <label for="role"><input
+                type="radio"
+                id="role"
+                name="role"
+                required
+              /> Definitely</label>
+              <label for="role"></label><input
+                type="radio"
+                id="role"
+                name="role"
+                required
+              /> Maybe</label>
+              <label for="role"></label><input
+                type="radio"
+                id="role"
+                name="role"
+                required
+              />Not sure</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="label">
+              <label for="most-like" class="most-like-label">What is your favorite feature of freeCodeCamp?</label>
+            </div>
+            <div class="input">
+              <select
+                id="most-like"
+                name="most-like"
+              >
+              <option disabled >Select Current role</option>
+              <option value="challenges">Challenges</option>
+              <option value="projects">Projects</option>
+              <option value="community">Community</option>
+              <option value="open">Open Source</option>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="label">
+              <p>What would you like to see improved? <span>(Check all that apply)</span></p>
+            </div>
+            <div class="input">
+                <label for="front">
+                <input
+                type="radio"
+                id="front"
+              />Front-end Projects</label>
+              <label for="back">
+                <input
+                type="radio"
+                id="back"
+              />Back-end Projects</label>
+              <label for="data">
+                <input
+                type="radio"
+                id="data"
+              />Data Visualization</label>
+              <label for="challenges">
+                <input
+                type="radio"
+                id="challenges"
+              />Challenges</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="label">
+              <p>Any comments or suggestions?</p>
+            </div>
+            <div class="input">
+              <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comments here..."></textarea>
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <div class="label">
+              <label for="name" class="name-label">name</label>
+            </div>
+            <div class="input">
+              <input
+                type="submit"
+                id="submit"
+                name="submit"
+                value="Submit"
+              />
+            </div>
+          </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
